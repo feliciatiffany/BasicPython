@@ -1,3 +1,5 @@
+#author : Felicia Tiffany H
+
 def daftarkontak(kontak):
     if len(kontak) == 0:
         print ("Belum ada kontak didaftarkan")
@@ -13,6 +15,7 @@ def tambahkontak(kontak):
         mydict = {
             "nama": "lala",
             "no": "000",
+            
         }
         print ("Tambah Kontak ")
         print (" ")
