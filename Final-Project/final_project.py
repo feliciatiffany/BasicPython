@@ -5,7 +5,7 @@ dir=os.path.dirname(os.path.realpath(__file__)) #to get directory that the progr
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 sender_email = 'feliciatiffany@gmail.com'  
-password = 'jviijqgatiotmqkx'
+password = ''
 context = ssl.create_default_context()
 server=smtplib.SMTP_SSL(smtp_server, port, context=context) 
 server.login(sender_email, password)
